@@ -1,0 +1,14 @@
+title = "MartoDosko"
+package.name = martodosko
+package.domain = org.martodosko
+source.dir = .
+version = "1.0"
+requirements = python3,kivy,requests,android
+orientation = portrait
+fullscreen = 0
+android.api = 33
+android.ndk = 25
+android.arch = arm64-v8a
+android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
+android.manifest_placeholders = provider_authority:org.martodosko.martodoskoapp.fileprovider
+p4a.bootstrap = sdl2
